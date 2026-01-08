@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Victor</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="cabecalho">Focused Lifestyle</h1>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h2>Login</h2>
+            <form class="formulario" id="login-form">
+                <label class="labelEmail">Email</label> <br>
+                <input class="email" id="email" type="email" placeholder="you@example.com" required /> <br>
+                <label class="labelSenha">Senha</label> <br>
+                <div class="pass">
+                    <input class="senha" id="password" type="password" placeholder="Your strong password" required />
+                    <i onclick="mostrarSenha()" id="btnSenha" class="bi bi-eye-fill"></i>
+                </div>
+                
+                <a class="forgot" href="#">Esqueci minha senha</a> <br>
+                <button class="btnEnviar" type="submit">Entrar</button>
+            </form>
+            <p>Não possui uma conta? <a class="register" href="../register/register.html">Registrar-se</a></p>
+        </div>
+    </main>
+    <footer class="footer">
+        
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

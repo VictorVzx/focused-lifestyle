@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    height: 100dvh;
+    width: 100vw;
+    background: rgb(61, 203, 255);
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-shadow: 0 2px 2px black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.container {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+    height: 100%;
+    padding: 30px 40px;
+    background-color: rgb(255, 255, 255);
+    gap: 2rem;
+}
+
+.container .forgot {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container .register {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container .email {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 1px gray;
+    outline: none;
+}
+
+.pass {
+    position: relative;
+}
+
+.pass i {
+    font-size: 20px;
+    cursor: pointer;
+
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    color: rgb(12, 23, 23);
+}
+
+.container .senha {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 1px gray;
+    outline: none;
+    
+}
+
+
+.container button {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px gray;
+    transition: 0.2s ease;
+}
+
+.container button:hover {
+    transform: translateY(-2px);
+}
+
+.footer {
+    width: 100vw;
+    height: 10%;
+}
